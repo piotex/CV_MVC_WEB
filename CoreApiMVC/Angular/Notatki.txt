@@ -1,0 +1,2 @@
+Odpalenie Front-u:
+	ng serve --open

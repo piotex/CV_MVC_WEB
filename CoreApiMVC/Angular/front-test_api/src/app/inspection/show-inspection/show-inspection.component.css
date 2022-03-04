@@ -1,0 +1,22 @@
+#add-success-alter,
+#update-success-alter,
+#delete-success-alter {
+    display: none;
+}
+#add-success-alter,
+#update-success-alter,
+#delete-success-alter {
+    animation-name: fadeInAndOut;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes fadeInAndOut{
+    0% {opacity: 0.3;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+@keyframes fadeInAndOut{
+    0% {opacity: 0.3;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
